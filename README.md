@@ -63,7 +63,7 @@ After installation, I opened Johnny and configured it to use the `john.exe` exec
 
 ## Step 3 - Extract the PDF Hash
 
-The encrypted PDF files were processed using the **Online Hash Crack PDF Hash Extractor** to obtain the password hashes:
+The password-protected PDF files were processed using the Online Hash Crack PDF Hash Extractor to extract their PDF password hashes:
 
 https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php/
 
@@ -74,7 +74,7 @@ The resulting hash started with:
 $pdf$
 ```
 
-I copied the complete hashes and saved them in text file respectively named:
+I copied the complete hashes and saved them in text file named:
 
 ```text
 hash1.txt
@@ -270,7 +270,7 @@ Check if John the Ripper is installed in this Hexstrike MCP and show me its vers
 
 ## Step 3 - Calculate the PDF Hash
 
-I asked the AI to calculate the hashes of the target PDFs.
+I used the AI-assisted Hexstrike-AI environment to extract the PDF password hashes from the target files.
 
 ```text
 Please calculate the hash value of this PDF files:
@@ -336,13 +336,13 @@ The main lesson from this week's activities was understanding the workflow:
                │
                ▼
 ┌──────────────────────────────┐
-│       Extract PDF Hash       │
+│   Select Password-Cracking   │
+│            Method            │
 └──────────────┬───────────────┘
                │
                ▼
 ┌──────────────────────────────┐
-│   Select Password-Cracking   │
-│            Method            │
+│     Extract PDF Hash         |
 └──────────────┬───────────────┘
                │
                ▼
