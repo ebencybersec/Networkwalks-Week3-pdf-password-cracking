@@ -20,7 +20,7 @@ These exercises helped me understand how password-protected PDF files can be con
 
 ## Objective
 
-The objective of this exercise was to recover the password of the provided `My Locked PDF1.pdf` file using John the Ripper and the Johnny graphical interface on Windows.
+The objective of this exercise was to recover the password of the provided PDF files using John the Ripper and the Johnny graphical interface on Windows.
 
 ---
 
@@ -68,7 +68,7 @@ The password-protected PDF files were processed using the Online Hash Crack PDF 
 https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php/
 
 
-The resulting hash started with:
+The resulting hashes started with:
 
 ```text
 $pdf$
@@ -102,7 +102,7 @@ The hashes were saved without additional characters before $pdf$.
 
 ## Step 4 - Load the Hashes into Johnny
 
-I opened Johnny and loaded the `hash1.txt` file containing the PDF hash.
+I opened Johnny and loaded the hash files containing the PDF hashes.
 
 ### Screenshots
 
@@ -164,11 +164,7 @@ The objective of this exercise was to recover the password of the provided PDF u
   
 ## Step 1 - Obtain the Lab PDF
 
-I used the same `My Locked PDF1.pdf` file that I downloaded earlier from the Networkwalks lab page.
-
-Lab page:
-
-https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/
+I used the same PDF files that I downloaded earlier.
 
 ---
 
@@ -292,7 +288,7 @@ The resulting PDF hash was then used for the password-cracking process.
 I instructed the AI to use the JTR tool available through the Hexstrike-AI MCP server and the RockYou wordlist.
 
 ```text
-Please use JTR tool in this hexstrike MCP server to crack the password of this PDF file.
+Please use JTR tool in this hexstrike MCP server to crack the password of this PDF files.
 Use the rockyou.txt wordlist dictionary.
 ```
 
@@ -306,7 +302,7 @@ John the Ripper then performed the password attack using the specified wordlist.
 
 ## Step 5 - Verify the Result
 
-After the password was recovered, I used it to open the protected PDF file.
+After the password was recovered, I used it to open the protected PDF files.
 
 The PDF opened successfully, confirming that the recovered password was correct.
 
