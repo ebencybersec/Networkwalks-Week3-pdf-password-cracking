@@ -134,9 +134,15 @@ After obtaining the password, I opened the encrypted PDF and entered the recover
 
 The PDF opened successfully, confirming that the password had been recovered.
 
-### Screenshot
+### Screenshots
 
-### Screenshot
+![Verify the Password](screenshots/part1-locked-pdf1.png)
+
+![Verify the Password](screenshots/part1-unlocked-pdf1.png)
+
+![Verify the Password](screenshots/part1-unlocked-pdf2.png)
+
+![Verify the Password](screenshots/part1-unlocked-pdf3.png)
 
 ---
 
