@@ -291,23 +291,23 @@ Through these three exercises, I gained practical experience with:
 The main lesson from this week's activities was understanding the workflow:
 
 ┌──────────────────────────────┐
-│        Protected PDF         │
+│         Protected PDF        │
 └──────────────┬───────────────┘
                │
                ▼
 ┌──────────────────────────────┐
-│      Extract PDF Hash        │
+│       Extract PDF Hash       │
 └──────────────┬───────────────┘
                │
                ▼
 ┌──────────────────────────────┐
-│ Select Password-Cracking     │
-│           Method             │
+│   Select Password-Cracking   │
+│            Method            │
 └──────────────┬───────────────┘
                │
                ▼
 ┌──────────────────────────────┐
-│     Run Password Attack      │
+│      Run Password Attack     │
 └──────────────┬───────────────┘
                │
                ▼
@@ -317,7 +317,7 @@ The main lesson from this week's activities was understanding the workflow:
                │
                ▼
 ┌──────────────────────────────┐
-│   Test Password Against PDF  │
+│    Test Password Against PDF │
 └──────────────────────────────┘
 
 ---
