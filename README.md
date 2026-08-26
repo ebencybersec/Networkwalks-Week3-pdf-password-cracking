@@ -270,17 +270,20 @@ Check if John the Ripper is installed in this Hexstrike MCP and show me its vers
 
 ## Step 3 - Calculate the PDF Hash
 
-I asked the AI to calculate the hash of the target PDF.
+I asked the AI to calculate the hashes of the target PDFs.
 
 ```text
-Please calculate the hash value of this PDF file:
-
-/home/kali/Desktop/hash3.networkwalks_flag1.pdf
+Please calculate the hash value of this PDF files:
+/home/kali/Desktop/My-Locked-PDF1.pdf
+/home/kali/Desktop/'My Locked PDF2.pdf'
+/home/kali/Desktop/'My Locked PDF3.pdf'
 ```
 
 The resulting PDF hash was then used for the password-cracking process.
 
 ### Screenshot
+
+![Calculate the PDF Hash](screenshots/part3-pdf-hash.png)
 
 ---
 
@@ -297,6 +300,8 @@ John the Ripper then performed the password attack using the specified wordlist.
 
 ### Screenshot
 
+![Crack the Password](screenshots/part3-recovered-password.png)
+
 ---
 
 ## Step 5 - Verify the Result
@@ -304,10 +309,6 @@ John the Ripper then performed the password attack using the specified wordlist.
 After the password was recovered, I used it to open the protected PDF file.
 
 The PDF opened successfully, confirming that the recovered password was correct.
-
-### Screenshot
-
-### Screenshot
 
 ---
 
