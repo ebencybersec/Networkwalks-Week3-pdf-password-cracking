@@ -86,3 +86,62 @@ The hash was saved without additional characters before $pdf$.
 
 I opened Johnny and loaded the `hash1.txt` file containing the PDF hash.
 
+### Screenshot
+
+## Step 5 - Start the Password Attack
+
+I started a new password-cracking attack using John the Ripper.
+
+### Screensho
+
+## Step 6 - Verify the Password
+
+After obtaining the password, I opened the encrypted PDF and entered the recovered password.
+
+The PDF opened successfully, confirming that the password had been recovered.
+
+### Screenshot
+
+### Screenshot
+
+---
+
+# Part 2 - Networkwalks Hash Calculator and Password Cracker
+
+## Objective
+
+The objective of this exercise was to recover the password of the provided PDF using the Networkwalks Hash Calculator and Password Cracker through a web browser.
+
+## Tools Used
+- Networkwalks Hash Calculator
+- Networkwalks Password Cracker
+- Web browser
+- Kali Linux or Windows
+  
+## Step 1 - Obtain the Lab PDF
+
+I used the same `My Locked PDF1.pdf` file that I downloaded earlier from the Networkwalks lab page.
+
+Lab page:
+
+https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/
+
+### Screenshot
+
+## Step 2 - Generate the PDF Hash
+
+I opened the Networkwalks Hash Calculator:
+
+https://networkwalks.com/hash-calculator/
+
+I uploaded the encrypted PDF file.
+
+The tool generated a PDF password hash beginning with:
+
+```text
+$pdf$
+```
+### Screenshot
+
+### Screenshot
+
