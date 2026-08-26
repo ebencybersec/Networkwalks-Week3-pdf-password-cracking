@@ -43,8 +43,6 @@ https://www.openwall.com/john/
 
 The `john.exe` executable is located inside the `run` directory of the John the Ripper installation.
 
-### Screenshot
-
 ![John the Ripper Installation](screenshots/part1-john-installation.png)
 
 ---
@@ -59,15 +57,13 @@ https://openwall.info/wiki/john/johnny
 
 After installation, I opened Johnny and configured it to use the `john.exe` executable from the John the Ripper `run` directory.
 
-### Screenshot
-
 ![Johnny Installation](screenshots/part1-johnny-installation.png)
 
 ---
 
 ## Step 3 - Extract the PDF Hash
 
-The encrypted PDF file was processed using the **Online Hash Crack PDF Hash Extractor** to obtain the password hash:
+The encrypted PDF files were processed using the **Online Hash Crack PDF Hash Extractor** to obtain the password hashes:
 
 https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php/
 
@@ -78,16 +74,27 @@ The resulting hash started with:
 $pdf$
 ```
 
-I copied the complete hash and saved it in a text file named:
+I copied the complete hashes and saved them in text file respectively named:
 
 ```text
 hash1.txt
+hash2.txt
+hash3.txt
 ```
 
-The hash was saved without additional characters before $pdf$.
+The hashes were saved without additional characters before $pdf$.
 
-### Screenshot
-### Screenshot
+![Extract the PDF Hash](screenshots/part1-pdf-hash1.png)
+
+![Save the PDF Hash](screenshots/part1-hash1-txt.png)
+
+![Extract the PDF Hash](screenshots/part1-pdf-hash2.png)
+
+![Save the PDF Hash](screenshots/part1-hash2-txt.png)
+
+![Extract the PDF Hash](screenshots/part1-pdf-hash3.png)
+
+![Save the PDF Hash](screenshots/part1-hash3-txt.png)
 
 ---
 
