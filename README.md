@@ -290,6 +290,7 @@ Through these three exercises, I gained practical experience with:
 
 The main lesson from this week's activities was understanding the workflow:
 
+<pre>
 ┌──────────────────────────────┐
 │         Protected PDF        │
 └──────────────┬───────────────┘
@@ -319,6 +320,7 @@ The main lesson from this week's activities was understanding the workflow:
 ┌──────────────────────────────┐
 │    Test Password Against PDF │
 └──────────────────────────────┘
+</pre>
 
 ---
 
