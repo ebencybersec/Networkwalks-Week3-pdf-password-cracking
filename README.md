@@ -67,7 +67,10 @@ After installation, I opened Johnny and configured it to use the `john.exe` exec
 
 ## Step 3 - Extract the PDF Hash
 
-The encrypted PDF file was processed using a PDF hash extraction tool.
+The encrypted PDF file was processed using the **Online Hash Crack PDF Hash Extractor** to obtain the password hash:
+
+https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php/
+
 
 The resulting hash started with:
 
