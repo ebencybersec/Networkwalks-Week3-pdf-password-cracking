@@ -22,12 +22,16 @@ These exercises helped me understand how password-protected PDF files can be con
 
 The objective of this exercise was to recover the password of the provided `My Locked PDF1.pdf` file using John the Ripper and the Johnny graphical interface on Windows.
 
+---
+
 ## Tools Used
 
 - John the Ripper (JTR)
 - Johnny GUI
 - Windows PC
 - PDF password hash
+
+---
 
 ## Step 1 - Install John the Ripper
 
@@ -82,17 +86,23 @@ The hash was saved without additional characters before $pdf$.
 ### Screenshot
 ### Screenshot
 
+---
+
 ## Step 4 - Load the Hash into Johnny
 
 I opened Johnny and loaded the `hash1.txt` file containing the PDF hash.
 
 ### Screenshot
 
+---
+
 ## Step 5 - Start the Password Attack
 
 I started a new password-cracking attack using John the Ripper.
 
 ### Screensho
+
+---
 
 ## Step 6 - Verify the Password
 
@@ -112,11 +122,15 @@ The PDF opened successfully, confirming that the password had been recovered.
 
 The objective of this exercise was to recover the password of the provided PDF using the Networkwalks Hash Calculator and Password Cracker through a web browser.
 
+---
+
 ## Tools Used
 - Networkwalks Hash Calculator
 - Networkwalks Password Cracker
 - Web browser
 - Kali Linux or Windows
+
+  ---
   
 ## Step 1 - Obtain the Lab PDF
 
@@ -127,6 +141,8 @@ Lab page:
 https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/
 
 ### Screenshot
+
+---
 
 ## Step 2 - Generate the PDF Hash
 
@@ -144,4 +160,7 @@ $pdf$
 ### Screenshot
 
 ### Screenshot
+
+---
+
 
