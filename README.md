@@ -189,9 +189,9 @@ $pdf$
 
 ![Generate the PDF Hash](screenshots/part2-hash-calculator1.png)
 
-[Generate the PDF Hash](screenshots/part2-hash-calculator2.png)
+![Generate the PDF Hash](screenshots/part2-hash-calculator2.png)
 
-[Generate the PDF Hash](screenshots/part2-hash-calculator3.png)
+![Generate the PDF Hash](screenshots/part2-hash-calculator3.png)
 
 ---
 
@@ -202,8 +202,6 @@ I opened the Networkwalks Password Cracker:
 https://networkwalks.com/password-cracker/
 
 I pasted the extracted PDF hash into the tool and started the password-cracking process.
-
-### Screenshot
 
 ---
 
@@ -217,7 +215,9 @@ The PDF opened successfully, confirming the result.
 
 ### Screenshot
 
-### Screenshot
+![Password Result](screenshots/part2-cracked-password1.png)
+![Password Result](screenshots/part2-cracked-password2.png)
+![Password Result](screenshots/part2-cracked-password3.png)
 
 ---
 
