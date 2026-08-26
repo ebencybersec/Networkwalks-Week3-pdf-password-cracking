@@ -170,8 +170,6 @@ Lab page:
 
 https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/
 
-### Screenshot
-
 ---
 
 ## Step 2 - Generate the PDF Hash
@@ -180,16 +178,20 @@ I opened the Networkwalks Hash Calculator:
 
 https://networkwalks.com/hash-calculator/
 
-I uploaded the encrypted PDF file.
+I uploaded the encrypted PDF files.
 
 The tool generated a PDF password hash beginning with:
 
 ```text
 $pdf$
 ```
-### Screenshot
+### Screenshots
 
-### Screenshot
+![Generate the PDF Hash](screenshots/part2-hash-calculator1.png)
+
+[Generate the PDF Hash](screenshots/part2-hash-calculator2.png)
+
+[Generate the PDF Hash](screenshots/part2-hash-calculator3.png)
 
 ---
 
