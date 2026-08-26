@@ -163,4 +163,193 @@ $pdf$
 
 ---
 
+## Step 3 - Use the Password Cracker
+
+I opened the Networkwalks Password Cracker:
+
+https://networkwalks.com/password-cracker/
+
+I pasted the extracted PDF hash into the tool and started the password-cracking process.
+
+### Screenshot
+
+---
+
+## Step 4 - Recover and Test the Password
+
+The tool attempted different password candidates until it found a matching password.
+
+I then entered the recovered password into the original PDF.
+
+The PDF opened successfully, confirming the result.
+
+### Screenshot
+
+### Screenshot
+
+---
+
+# Part 3 - John the Ripper with AI Assistance
+
+## Objective
+
+The objective of this exercise was to use John the Ripper with AI assistance through Hexstrike-AI MCP and Claude Desktop on Kali Linux.
+
+---
+
+## Lab Environment
+Kali Linux
+Claude Desktop
+Hexstrike-AI MCP
+John the Ripper
+RockYou wordlist
+Password-protected PDF
+
+---
+
+## Step 1 - Prepare the Target File
+
+I copied the provided PDF file to the Kali Linux Desktop:
+
+/home/kali/Desktop/hash3.networkwalks_flag1.pdf
+### Screenshot
+
+---
+
+## Step 2 - Verify John the Ripper
+
+I used Claude Desktop with the Hexstrike-AI MCP environment to check whether John the Ripper was installed and to verify its version.
+
+Example prompt:
+
+```text
+Check if John the Ripper is installed in this Hexstrike MCP and show me its version.
+```
+
+### Screenshot
+
+---
+
+## Step 3 - Calculate the PDF Hash
+
+I asked the AI to calculate the hash of the target PDF.
+
+```text
+Please calculate the hash value of this PDF file:
+
+/home/kali/Desktop/hash3.networkwalks_flag1.pdf
+```
+
+The resulting PDF hash was then used for the password-cracking process.
+
+### Screenshot
+
+---
+
+## Step 4 - Crack the Password
+
+I instructed the AI to use the JTR tool available through the Hexstrike-AI MCP server and the RockYou wordlist.
+
+```text
+Please use JTR tool in this hexstrike MCP server to crack the password of this PDF file.
+Use the rockyou.txt wordlist dictionary.
+```
+
+John the Ripper then performed the password attack using the specified wordlist.
+
+### Screenshot
+
+---
+
+## Step 5 - Verify the Result
+
+After the password was recovered, I used it to open the protected PDF file.
+
+The PDF opened successfully, confirming that the recovered password was correct.
+
+### Screenshot
+
+### Screenshot
+
+---
+
+## Key Concepts Learned
+
+Through these three exercises, I gained practical experience with:
+
+- PDF password protection
+- Hash extraction
+- John the Ripper
+- Johnny GUI
+- Wordlist-based password attacks
+- RockYou wordlists
+- Password complexity
+- AI-assisted security tooling
+- Kali Linux security tools
+- Verification of recovered passwords
+
+The main lesson from this week's activities was understanding the workflow:
+
+┌──────────────────────────────┐
+│        Protected PDF         │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│      Extract PDF Hash        │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│ Select Password-Cracking     │
+│           Method             │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│     Run Password Attack      │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│       Recover Password       │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│   Test Password Against PDF  │
+└──────────────────────────────┘
+
+---
+
+# Conclusion
+
+Week 3 gave me hands-on experience with password recovery techniques using both traditional security tools and AI-assisted tooling.
+
+I learned that password cracking is not simply about running a tool. The process involves identifying the correct hash format, selecting an appropriate attack method or wordlist, monitoring the attack, and verifying the recovered password.
+
+All activities were performed against authorized laboratory files for educational purposes.
+
+---
+
+# Tools and Resources
+- John the Ripper: https://www.openwall.com/john/
+- Johnny: https://openwall.info/wiki/john/johnny
+- Networkwalks Hash Calculator: https://networkwalks.com/hash-calculator/
+- Networkwalks Password Cracker: https://networkwalks.com/password-cracker/
+- Networkwalks Lab: https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks/
+
+---
+
+# Project Information
+
+**Program:** Cybersecurity at Networkwalks
+
+**Batch:** B082
+
+**Week:** 03
+
+**Project:** PDF Password Cracking
+
+**Student:** OKUMBA-MITCHOWANOU EBENISERT-BIENVENU
 
