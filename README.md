@@ -84,6 +84,8 @@ hash3.txt
 
 The hashes were saved without additional characters before $pdf$.
 
+### Screenshots
+
 ![Extract the PDF Hash](screenshots/part1-pdf-hash1.png)
 
 ![Save the PDF Hash](screenshots/part1-hash1-txt.png)
@@ -98,11 +100,17 @@ The hashes were saved without additional characters before $pdf$.
 
 ---
 
-## Step 4 - Load the Hash into Johnny
+## Step 4 - Load the Hashes into Johnny
 
 I opened Johnny and loaded the `hash1.txt` file containing the PDF hash.
 
-### Screenshot
+### Screenshots
+
+![Load the Hash1 into Johnny](screenshots/part1-open-hash-johnny1.png)
+
+![Load the Hash1 into Johnny](screenshots/part1-open-hash-johnny2.png)
+
+![Load the Hash1 into Johnny](screenshots/part1-open-hash-johnny3.png)
 
 ---
 
@@ -110,7 +118,7 @@ I opened Johnny and loaded the `hash1.txt` file containing the PDF hash.
 
 I started a new password-cracking attack using John the Ripper.
 
-### Screensho
+### Screenshots
 
 ---
 
