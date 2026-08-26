@@ -213,7 +213,7 @@ I then entered the recovered password into the original PDF.
 
 The PDF opened successfully, confirming the result.
 
-### Screenshot
+### Screenshots
 
 ![Password Result](screenshots/part2-cracked-password1.png)
 ![Password Result](screenshots/part2-cracked-password2.png)
