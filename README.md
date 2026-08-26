@@ -120,6 +120,12 @@ I started a new password-cracking attack using John the Ripper.
 
 ### Screenshots
 
+![Password Attack](screenshots/part1-johnny-attack1.png)
+
+![Password Attack](screenshots/part1-johnny-attack2.png)
+
+![Password Attack](screenshots/part1-johnny-attack3.png)
+
 ---
 
 ## Step 6 - Verify the Password
