@@ -241,10 +241,14 @@ Password-protected PDF
 
 ## Step 1 - Prepare the Target File
 
-I copied the provided PDF file to the Kali Linux Desktop:
+I copied the provided PDF files to the Kali Linux Desktop:
 
-/home/kali/Desktop/hash3.networkwalks_flag1.pdf
-### Screenshot
+
+```text
+/home/kali/Desktop/My-Locked-PDF1.pdf
+/home/kali/Desktop/'My Locked PDF2.pdf'
+/home/kali/Desktop/'My Locked PDF3.pdf'
+```
 
 ---
 
@@ -259,6 +263,8 @@ Check if John the Ripper is installed in this Hexstrike MCP and show me its vers
 ```
 
 ### Screenshot
+
+![Verify John the Ripper](screenshots/part3-jtr-version.png)
 
 ---
 
